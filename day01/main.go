@@ -67,7 +67,7 @@ func ParseInput(filename string) ([]Rotation, error) {
 }
 
 func main() {
-	rotations, err := ParseInput("input01.txt")
+	rotations, err := ParseInput("input.txt")
 	if err != nil {
 		fmt.Printf("%v\n", err)
 	}

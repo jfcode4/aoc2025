@@ -54,7 +54,7 @@ func IsRepeatingMany(num int) bool {
 }
 
 func main() {
-	filename := "input02.txt"
+	filename := "input.txt"
 	file, err := os.ReadFile(filename)
 	if err != nil {
 		fmt.Printf("Cannot open file %s: %v", filename, err)
